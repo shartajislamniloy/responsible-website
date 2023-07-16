@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+       header{
+        height: 800px;
+        width: 1200px;
+        background-color: bisque;
+       }
+       
+        .a{
+            display: flex;
+            justify-content: space-around;
+        }
+
+        
+        .b{
+            display: flex;
+            list-style: none;
+            margin-top: 25px;
+
+        }
+        .b > li{
+            margin-left: 25px;
+            font-weight: bold;
+        }
+        nav li a{
+            text-decoration: none;
+            color: black;
+        }
+        .c{
+            text-align: center;
+            margin-top: 50px;
+        }
+        .h1{
+
+        }
+        .p{
+            margin-top: 7px;
+        }
+        .btn{
+             margin-top: 7px;
+             background-color: coral;
+             border: none;
+             border-radius: 5px;
+             width: 100px;
+             height: 50px;
+             cursor: pointer;
+       }
+       .c img{
+        width: 80%;
+       }
+       .d{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+       }
+    
+      .e img{
+        width: 100%;
+      }
+      .e{
+        margin-left: 100px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+      }
+      .f{
+        margin-left: 200px;
+      }
+      .g{
+        display: flex;
+        justify-content: space-around;
+      }
+      .g1{
+        border: 2px solid rgb(117, 115, 115);
+        border-radius: 5px;
+        
+      }
+      .gg{
+        margin-top: 100px;
+      }
+      .h{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 20px;
+      }
+      .fea{
+        display: flex;
+        margin-top: 100px;
+        gap: 100px;
+      }
+      .fea-card{
+        box-shadow: 0px 4px 30px 0px rgb(199, 198, 198);
+        border-radius: 5px;
+        padding: 5px;
+        margin-top: 10px;
+        margin-left: 20px;
+      }
+      .fea-int{
+        border-left: 5px solid gold;
+        padding-left: 5px;
+      }
+      .fea-imgcon{
+        border: 2px solid black;
+       width: fit-content;
+       padding-left: 30px ;
+       padding-right: 30px ;
+       background-color: tomato;
+       position: relative;
+       bottom: 50px; /* here at first we have set the position relative and after that we have pulled it in upper portion by bottom 50px*/
+      }
+      
+    
+       @media screen and (max-width:576px){
+            
+        header{
+        height: 550px;
+        width: 400px;
+      
+       }
+       .a{
+        flex-direction: column;
+       }
+       .h{ 
+        margin-left: 20px;
+       }
+       .b{
+        margin-left: 70px;
+       }
+       .e img{
+        width: 200px;
+       }
+       .d{
+        flex-direction: column;
+       }
+      .e{
+       
+       grid-template-columns: 1fr;
+       margin-right: 80px;
+      }
+      .f{
+        margin-left: 100px;
+      }
+      .g{
+        flex-direction: column;
+      }
+      .g1{
+        margin-top: 30px;
+      }
+      .g1 img{
+        margin-top: 50px;
+        padding-left: 80px;
+      }
+      .g1 p{
+        color: blue;
+        text-align: center;
+      }
+      .gg{
+        margin-left: 40px;
+      }
+      .h{
+        flex-direction: column;
+      }
+      .h img{
+        margin-top: 30px;
+        margin-left: 130px;
+      }
+      .fea{
+        flex-direction: column;
+      }
+      .fea-img img{
+        width: 80%;
+        margin-left: 30px;
+      }
+        }
+        @media screen and (min-width:577px) and (max-width:992px){
+           
+            .a{
+        flex-direction: column;
+       }
+       .b{
+        margin-left: 500px;
+       }
+       .e{
+        margin-top: 50px;
+       }
+      
+       .d{
+        flex-direction: column-reverse;
+       }
+       header{
+        width: 700px;
+       }
+       
+        }
+        
+      
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+        <div class="a">
+            <div class="h">
+        <h1>G3 Architecture </h1>
+        </div>  
+        <div class="b">
+            
+                <li> <a href="">Home</a> </li>
+                <li> <a href="">About</a></li>
+                <li> <a href="">Login</a></li>
+        
+        </div>
+        </div>
+    </nav>
+    <section>
+        <div class="c">
+            <div class="ban-con">
+        <h1 class="h1">Brand New <br> Group of Architecture</h1>
+        <p  class="p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate totam ratione nesciunt quis obcaecati dolor! Temporibus <br> ipsum architecto minus! Dolorem saepe dolor optio ullam voluptates nobis, natus ipsum velit eveniet.</p>
+    <button class="btn">Explore More</button> 
+</div>
+    <img src="banner.png" alt="" >
+</div>
+</section>
+    </header>
+    <main>
+        <section>
+            <div class="d">
+                <div class="e">
+                    
+                    <img src="team1.png" alt="" >
+                    <img src="team2.png" alt="">
+                    <img src="team3.png" alt="" >
+                    <img src="team4.png" alt="">
+                
+                </div>
+                <div class="f">
+                    <h1>Quick list of our Feature</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus vel nam vitae ut, inventore doloribus eius? Ad a tenetur amet assumenda unde, minus rerum libero totam praesentium sequi omnis eaque.</p>
+                <button class="btn">Explore more</button>
+                </div>
+            </div>
+            
+        </section>
+        <section class="fea">
+            <div class="fea-con">
+                <div class="fea-int">
+                <h3>Feature You will love and enjoy</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis expedita reprehenderit, nostrum ipsa nemo repellat aliquid non nihil, id, repellendus molestiae natus mollitia voluptatum qui officiis facilis. Deleniti, quod earum.</p>
+            </div> 
+                <div class="fea-card">
+                   <h4>Dekstop and Mobile Version</h4>
+                   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem molestias, repellat, eligendi non id exercitationem explicabo qui vel esse ab beatae totam laborum asperiores pariatur corrupti nemo error et mollitia.</p>
+                 </div>
+                 <div class="fea-card">
+                    <h4>Dekstop and Mobile Version</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem molestias, repellat, eligendi non id exercitationem explicabo qui vel esse ab beatae totam laborum asperiores pariatur corrupti nemo error et mollitia.</p>
+                  </div>
+                  <div class="fea-card">
+                    <h4>Dekstop and Mobile Version</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem molestias, repellat, eligendi non id exercitationem explicabo qui vel esse ab beatae totam laborum asperiores pariatur corrupti nemo error et mollitia.</p>
+                  </div>
+            </div>
+            <div class="fea-img">
+                
+                <img src="architect.png" alt="">
+                <div class="fea-imgcon">
+                  <h3>10+ Years</h3>
+                  <p>Experience</p>
+                </div>
+            </div>
+        </section>
+        <section class="gg">
+            <h3 style="text-align: center;">Some Fact</h3>
+            <p style="text-align: center;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur corporis necessitatibus unde consectetur suscipit hic odit aliquam porro <br> repudiandae sit! Voluptatibus non architecto </p>
+             <div class="g">
+              <div class="g1">
+                <img src="ribon.png" alt="" style="margin-left: 20px;">
+                <h2 style="text-align: center;">54</h2>
+                <p>Award Wining</p>
+              </div>
+              <div class="g1">
+                <img src="projects.png" alt="" style="margin-left: 20px;">
+                <h2 style="text-align: center;">54</h2>
+                <p>Award Wining</p>
+              </div>
+              <div class="g1">
+                <img src="customers.png" alt="" style="margin-left: 20px;">
+                <h2 style="text-align: center;">54</h2>
+                <p>Award Wining</p>
+              </div>
+              
+              <div class="g1">
+                <img src="email.png" alt="" style="margin-left: 20px;">
+                <h2 style="text-align: center;">54</h2>
+                <p>Award Wining</p>
+              </div>
+             </div>
+        </section>
+        <section style="margin-top: 50px; background-color: aquamarine;">
+            <h3 style="text-align: center;">Our Sponsor</h3>
+            <p style="text-align: center;">Lorem ipsum dolor sit amet Lorem ipsum dolor Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus recusandae iure libero <br> aperiam unde doloremque amet ipsam fugit iusto beatae corporis veniam debitis commodi, at .</p>
+            <div class="h">
+            <div><img src="spotify.png" alt=""></div>
+            <div><img src="telerama.png" alt=""></div>
+            <div> <img src="google.png" alt=""></div>
+        </div>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+</html>
